@@ -13,3 +13,4 @@ octave file_name
 | 1_variables.m 		| - Using variables |
 | 2_data_structures.m	| - Using basic data structures (Vector, Matrix) |
 | 3_conditionals.m		| - Using if and switch-case |
+| 4_loops.m				| - Using loops (While and For) |
