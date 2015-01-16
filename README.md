@@ -16,3 +16,4 @@ octave file_name
 | 4_loops.m				| - Using loops (While and For) |
 | 5_functions_methods.m | - Using functions and methods |
 | 6_libraries.m			| - Using libraries |
+| 7_io.m 				| - Read standard input and manipulate files |
