@@ -12,6 +12,38 @@ myvectorn = [ "Batman" "Superman" "Wonder Woman" "Green Light" "Flash" "J\'onn"]
 # Access
 printf("%s\n",myvectorn(1:6));
 
+# Solve Polynomials
+p = [4 8 15 0 23 42]; 	# 4X^5 + 8X^4 + 15X^3 + 23X + 42
+polyval(p,3.1416)		# Eval Polynom with value 3.1416
+
+# Add and Substract
+V1 = [1 2 3 4 5 ];
+V2 = [6 7 8 9 10];
+V1 + V2
+V1 - V2
+
+# Scalar multiplication
+p4 = 4*p
+
+# Transpose
+transpose_vector = p'
+
+# Concat
+[V1,V2]		# Rows
+[V1';V2']	# Colums
+
+# Magnitude
+Vaux = [1 2 3 4 5];
+sv = Vaux.* Vaux;
+dp = sum(sv);    # Sum of squares
+mag = sqrt(dp);  # Magnitude
+
+# Dot product
+result = dot(V1,V2);
+
+# Power 3 each element
+V1.^3
+
 ####################################### Matrix ##########################################
 
 # Empty Matrix 4x4 with 0 values
@@ -34,11 +66,21 @@ printf("Matrix Transpose\n");
 mymatrix.'
 
 # Operate matrix
-printf("Operate Matrix\n");
+printf("Operate Matrix with other Matrix\n");
 aux = ones(2,3);
 mymatrix + aux		# Plus
 mymatrix - aux		# Minus
 mymatrix * aux'		# Multiply
+
+printf("Operate Matrix with single value\n");
+mymatrix + 2		# Plus
+mymatrix - 2		# Minus
+mymatrix * 2		# Multiply
+mymatrix / 2 		# Divide
+
+# Concat
+[ ones(3), ones(3) ] # Result 3 rows 6 colums
+[ ones(3); ones(3) ] # Result 6 rows 3 colums
 
 # A*A
 printf("Multiply Matrix A*A\n");
@@ -89,3 +131,6 @@ eig(A)
 
 # The condition number of A with respect to the 2-norm.
 cond(A)
+
+# Determinant
+det(A)

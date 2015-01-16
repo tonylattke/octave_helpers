@@ -14,3 +14,5 @@ octave file_name
 | 2_data_structures.m	| - Using basic data structures (Vector, Matrix) |
 | 3_conditionals.m		| - Using if and switch-case |
 | 4_loops.m				| - Using loops (While and For) |
+| 5_functions_methods.m | - Using functions and methods |
+| 6_libraries.m			| - Using libraries |
