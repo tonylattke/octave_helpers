@@ -18,3 +18,5 @@ octave file_name
 | 6_libraries.m			| - Using libraries |
 | 7_io.m 				| - Read standard input and manipulate files |
 | 8_value_transform.m	| - Value to string and string to value functions |
+| 9_0_export_data.m		| - Functions and variables created to be exported |
+| 9_1_importing_files.m	| - Import file |
