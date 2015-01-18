@@ -99,7 +99,7 @@ squares(:,3) # Access third columm
 printf("Length of row %d\n", length(squares));
 [rows,colums] = size(squares)
 
-# Diagonal functionas
+# Diagonal functions
 diag(squares) 	# Get Diagonal on matrix
 diag([1 2 3])	# Create matrix with diagonal 1 2 3
 

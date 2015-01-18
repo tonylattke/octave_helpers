@@ -38,7 +38,7 @@ switch ( number )
 	case 23
 		printf("Number is 23\n");
 		break;
-	case 43
+	case 42
 		printf("Number is 42\n");
 	otherwise
 		printf("Number is other\n");
