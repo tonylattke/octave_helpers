@@ -12,9 +12,11 @@ pi
 e
 phi = (1 + sqrt(5))/2
 
-isnan(x)		# Is not a number
+x = 10;
 
-round(x)		# Truncate x
+isnan(x)	# Is not a number
+
+round(x)	# Truncate x
 
 exp(x) 		# e to the power of x
 
